@@ -1,4 +1,4 @@
-# 🧠 spring-cs-notes
+# 🚀 spring-cs-notes
 
 Spring Boot로 실습하며 정리하는 **백엔드 면접 대비용 노트**입니다.  
 Java와 Spring 기반으로 Call by Value, 객체지향, DI, AOP, 디자인패턴 등  
