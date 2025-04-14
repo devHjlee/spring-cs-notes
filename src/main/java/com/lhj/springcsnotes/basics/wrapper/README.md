@@ -87,4 +87,4 @@ try {
 
 ## 전체 예제 코드
 
-모든 예제는 GitHub `spring-cs-notes`의 [`Wrapper`](https://github.com/devHjlee/spring-cs-notes/tree/main/src/main/java/com/lhj/springcsnotes/basics/wrapper) 경로에서 확인할 수 있습니다.
+모든 예제는 GitHub `spring-cs-notes`의 [`basics/wrapper`](https://github.com/devHjlee/spring-cs-notes/tree/main/src/main/java/com/lhj/springcsnotes/basics/wrapper) 경로에서 확인할 수 있습니다.
