@@ -4,7 +4,7 @@
 
 ---
 
-## ✅ 1. Primitive vs Wrapper 비교
+## 1. Primitive vs Wrapper 비교
 
 ```java
 int a = 10;
@@ -31,7 +31,7 @@ System.out.println(i3 == i4);       // false (다른 객체)
 
 ---
 
-## ✅ 2. 오토박싱/언박싱 성능 비교
+## 2. 오토박싱/언박싱 성능 비교
 
 ```java
 final int LOOP = 100000000;
@@ -56,7 +56,7 @@ for (int i = 0; i < LOOP; i++) {
 
 ---
 
-## ⚠️ 3. 언박싱 시 NullPointerException 주의
+## 3. 언박싱 시 NullPointerException 주의
 
 ```java
 Integer wrapper = null;
@@ -85,6 +85,6 @@ try {
 
 ---
 
-## ✅ 전체 예제 코드
+## 전체 예제 코드
 
 모든 예제는 GitHub `spring-cs-notes`의 [`Wrapper`](https://github.com/devHjlee/spring-cs-notes/tree/main/src/main/java/com/lhj/springcsnotes/basics/wrapper) 경로에서 확인할 수 있습니다.

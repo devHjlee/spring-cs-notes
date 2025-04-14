@@ -7,7 +7,7 @@ Java는 모든 메서드 인자 전달을 **Call by Value (값에 의한 호출)
 
 ---
 
-## ✅ 기본형 타입 (Primitive Type)
+## 기본형 타입 (Primitive Type)
 
 ```java
 public class PrimitiveExample {
@@ -32,7 +32,7 @@ public class PrimitiveExample {
 
 ---
 
-## ✅ 참조형 타입 (Reference Type)
+## 참조형 타입 (Reference Type)
 
 ```java
 public class ReferenceExample {
@@ -71,7 +71,7 @@ class Book {
 
 ---
 
-## ✅ 메모리 흐름 요약
+## 메모리 흐름 요약
 
 | 시점                     | `myBook` (main) | `book` (change) | 힙 상태 |
 |--------------------------|------------------|------------------|----------|
@@ -84,15 +84,15 @@ class Book {
 
 ---
 
-## ✅ 핵심 요약
+## 핵심 요약
 
 | 항목               | Call by Value in Java |
-|--------------------|------------------------|
+|--------------------|----------------------|
 | 전달 방식           | 값을 복사해서 전달 |
 | 기본형 타입         | 값 자체가 복사됨 |
 | 참조형 타입         | 객체의 참조값(주소)이 복사됨 |
-| 객체 내부 수정      | ✅ 원본 객체 영향 O |
-| 참조 재할당         | ❌ 원본 참조에는 영향 없음 |
+| 객체 내부 수정      | 원본 객체 영향 O |
+| 참조 재할당         | 원본 참조에는 영향 없음 |
 
 ---
 
@@ -102,6 +102,6 @@ class Book {
 > 참조형 객체를 넘길 경우에도 객체 자체가 아닌 **참조값(주소)의 복사본**이 전달됩니다.  
 > 따라서 객체 내부를 수정하면 원본 객체에 반영되지만, 객체 자체를 새로 할당해도 원본에는 영향을 주지 않습니다.
 
-## ✅ 전체 예제 코드
+## 전체 예제 코드
 
 모든 예제는 GitHub `spring-cs-notes`의 [`CallByValue`](https://github.com/devHjlee/spring-cs-notes/tree/main/src/main/java/com/lhj/springcsnotes/basics/callbyvalue) 경로에서 확인할 수 있습니다.

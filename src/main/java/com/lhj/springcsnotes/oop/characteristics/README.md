@@ -147,7 +147,7 @@ public class Main {
 
 ---
 
-## ✅ 핵심 요약
+## 핵심 요약
 
 - **캡슐화** → `PayRequest`: 필드 은닉 + 유효성 체크
 - **추상화** → `Payment`: 인터페이스 설계
@@ -156,6 +156,6 @@ public class Main {
 
 ---
 
-## ✅ 전체 예제 코드
+## 전체 예제 코드
 
 모든 예제는 GitHub `spring-cs-notes`의 [`oop/characteristics`](https://github.com/devHjlee/spring-cs-notes/tree/main/src/main/java/com/lhj/springcsnotes/oop/characteristics) 경로에서 확인할 수 있습니다.

@@ -4,7 +4,7 @@
 
 ---
 
-## 🔸 SOLID란?
+## SOLID란?
 
 | 원칙 | 설명 |
 |------|------|
@@ -16,7 +16,7 @@
 
 ---
 
-## ✅ 각 원칙별 간단 예제
+## 각 원칙별 간단 예제
 
 ### 1. 단일 책임 원칙 (SRP)
 
@@ -120,7 +120,7 @@ class PayManager {
 
 ---
 
-## ✅ 전체 예제 코드
+## 전체 예제 코드
 
 모든 예제는 GitHub `spring-cs-notes`의 [`oop/solid`](https://github.com/devHjlee/spring-cs-notes/tree/main/src/main/java/com/lhj/springcsnotes/oop/solid) 경로에서 확인할 수 있습니다.
 
