@@ -1,11 +1,9 @@
 # 💡 Java에서의 Call by Value (값에 의한 호출)
 
-Java는 모든 메서드 인자 전달을 **Call by Value (값에 의한 호출)** 방식으로 처리합니다.  
-하지만 **참조형 타입(Object)**을 전달할 때는, 객체의 **참조값(주소)**이 복사되어 전달되기 때문에  
-처음 접할 땐 마치 Call by Reference처럼 느껴질 수 있습니다.
+Java는 모든 메서드 인자 전달을 **Call by Value (값에 의한 호출)** 방식으로 처리하며  
+참조형 타입(Object) 또한 객체의 **참조값(주소)** 복사되어 전달
 
-이 문서에서는 **기본형 타입과 참조형 타입이 Call by Value로 어떻게 동작하는지**  
-예제와 함께 이해하기 쉽게 정리합니다.
+**기본형 타입과 참조형 타입이 Call by Value** 예제와 함께 정리
 
 ---
 
@@ -103,3 +101,7 @@ class Book {
 > Java는 항상 Call by Value(값에 의한 호출)를 사용하며,  
 > 참조형 객체를 넘길 경우에도 객체 자체가 아닌 **참조값(주소)의 복사본**이 전달됩니다.  
 > 따라서 객체 내부를 수정하면 원본 객체에 반영되지만, 객체 자체를 새로 할당해도 원본에는 영향을 주지 않습니다.
+
+## ✅ 전체 예제 코드
+
+모든 예제는 GitHub `spring-cs-notes`의 [`CallByValue`](https://github.com/devHjlee/spring-cs-notes/tree/main/src/main/java/com/lhj/springcsnotes/callbyvalue) 경로에서 확인할 수 있습니다.
