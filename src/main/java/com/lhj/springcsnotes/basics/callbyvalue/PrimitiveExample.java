@@ -1,4 +1,4 @@
-package com.lhj.springcsnotes.callbyvalue;
+package com.lhj.springcsnotes.basics.callbyvalue;
 
 public class PrimitiveExample {
 
