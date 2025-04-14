@@ -2,7 +2,7 @@ package com.lhj.springcsnotes.oop.characteristics;
 
 /**
  * 상속 + 구현체 1
- * - Card 결제를 위해 Payment 인터페이스를 구현
+ * Card 결제를 위해 Payment 인터페이스를 구현
  */
 public class CardPayment implements Payment {
 

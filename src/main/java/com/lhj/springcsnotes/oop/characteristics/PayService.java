@@ -1,8 +1,8 @@
 package com.lhj.springcsnotes.oop.characteristics;
 
 /**
- * - 다형성 : Payment 타입으로 다양한 구현체(CardPayment, KakaoPay)를 처리
- * - 코드 변경 없이 새로운 결제 수단 추가 가능
+ * 다형성 : Payment 타입으로 다양한 구현체(CardPayment, KakaoPay)를 처리
+ * 코드 변경 없이 새로운 결제 수단 추가 가능
  */
 public class PayService {
 

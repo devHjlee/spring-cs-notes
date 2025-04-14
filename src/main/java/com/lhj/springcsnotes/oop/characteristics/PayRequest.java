@@ -1,8 +1,8 @@
 package com.lhj.springcsnotes.oop.characteristics;
 
 /**
- * - 캡슐화 : 필드를 private으로 감추고
- * - public 메서드를 통해서만 접근할 수 있도록 제한
+ * 캡슐화 : 필드를 private으로 감추고
+ * public 메서드를 통해서만 접근할 수 있도록 제한
  */
 public class PayRequest {
     private String userId;

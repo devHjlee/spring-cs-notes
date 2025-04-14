@@ -2,7 +2,7 @@ package com.lhj.springcsnotes.oop.characteristics;
 
 /**
  * Pay 실행 클래스
- * - 객체지향 4대 특성을 모두 사용한 통합 예제
+ * 객체지향 4대 특성을 모두 사용한 통합 예제
  */
 public class Main {
     public static void main(String[] args) {
